@@ -58,20 +58,20 @@
 ## Overleaf上的更新同步到GitHub上
 Overleaf中改动后，还是点Menu中的github，会出现下面这个框，我们选择push到github上：
 
-![同步](https://github.com/xurongxiang/Overleaf_to_GitHub/blob/master/fig/6.png)
+![同步](https://github.com/xurongxiang/Overleaf_to_GitHub/blob/master/fig/7.png)
 
 比如，我把标题 \title{Workload Trend Analysis} 改为 \title{Workload Analysis}
 
 
-![1](https://img-blog.csdnimg.cn/20190330215506138.png)
+![1](https://github.com/xurongxiang/Overleaf_to_GitHub/blob/master/fig/6.png)
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190330215546556.png)
+![在这里插入图片描述](https://github.com/xurongxiang/Overleaf_to_GitHub/blob/master/fig/8.png)
 
 
 然后选择push到github上，此时，去github中看,我们发现文件更新了
 
 
-![如图](https://img-blog.csdnimg.cn/20190330215839662.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMjAyODk0,size_16,color_FFFFFF,t_70)
+![如图](https://github.com/xurongxiang/Overleaf_to_GitHub/blob/master/fig/9.png)
 
 说明Overleaf上的文件可以同步到github上了。
 
@@ -86,6 +86,6 @@ git pull一下就行了
 ## github同步到Overleaf
 当github上项目更新时，Overleaf中会检测到，pull from github也会变成蓝色，此时，点 **Pull GitHub changes into Overleaf** , Overleaf就会自动把GitHub中的更新同步到当前项目中了。
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190330230240476.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMjAyODk0,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://github.com/xurongxiang/Overleaf_to_GitHub/blob/master/fig/10.png)
 
 
