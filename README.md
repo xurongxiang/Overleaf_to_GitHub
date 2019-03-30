@@ -34,7 +34,7 @@
 打开Git bash（没有的话，可以去下载一个）
 
 
-![在这里插入图片描述](https://github.com/xurongxiang/Overleaf_to_GitHub/blob/master/fig/5.png)
+![在这里插入图片描述](https://github.com/xurongxiang/Overleaf_to_GitHub/blob/master/fig/11.png)
 
 然后输入
 
@@ -47,7 +47,7 @@
 此时本地文件夹里就会有Overleaf上的项目了。
 
 
-![如图](https://img-blog.csdnimg.cn/20190330214711335.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMjAyODk0,size_16,color_FFFFFF,t_70)
+![如图](https://github.com/xurongxiang/Overleaf_to_GitHub/blob/master/fig/5.png)
  然后添加远程库，
 
 >  git remote add origin https://github.com/ruanlibuaa/OverleafGithubSynTest.git
@@ -58,8 +58,7 @@
 ## Overleaf上的更新同步到GitHub上
 Overleaf中改动后，还是点Menu中的github，会出现下面这个框，我们选择push到github上：
 
-
-![同步](https://img-blog.csdnimg.cn/20190330215325779.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMjAyODk0,size_16,color_FFFFFF,t_70)
+![同步](https://github.com/xurongxiang/Overleaf_to_GitHub/blob/master/fig/6.png)
 
 比如，我把标题 \title{Workload Trend Analysis} 改为 \title{Workload Analysis}
 
