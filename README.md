@@ -2,19 +2,23 @@
 
 最近要用Latex多人协同写论文，于是就选了[Overleaf ](https://www.overleaf.com?r=d0e1bbd0&rm=d&rs=b)。这个网站可以实现多人协同写论文，并且支持latex在线编译，以及不同历史版本之间的diff，算是非常好用的latex在线编辑器了。唯独有个缺点就是编译太慢了，有时候大一点的论文还会报Time out错误。当然，氪金可以解决这个问题，不过像我这种苦逼的程序猿根本没钱去氪。于是，便想出了一个本地编译，同步到Overleaf上的法子，这就是借助github作为中间跳板，把本地，Overleaf和Github的仓库连起来。
 
-## Overleaf与Github连接![Overleaf界面](https://img-blog.csdnimg.cn/20190330212734468.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMjAyODk0,size_16,color_FFFFFF,t_70)
+## Overleaf与Github连接
+
+
+![Overleaf界面](https://github.com/xurongxiang/Overleaf_to_GitHub/blob/master/fig/1.png)
+
 打开Overleaf中的latex项目，我们现在的目标是把这里的项目同步到github上。
 首先在左上角有个**Menu**,点它，可以看到许多关于项目的设置，我们如图找到github，点进去，按照提示一步一步操作（部分用户可能要收费，但是如果之前邀请过用户，那么就可以免费使用）
 
 
-![找到github](https://img-blog.csdnimg.cn/20190330213143237.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMjAyODk0,size_16,color_FFFFFF,t_70)
+![找到github](https://github.com/xurongxiang/Overleaf_to_GitHub/blob/master/fig/2.png)
 
 
 等把Overleaf里的项目同步到github里后，效果如图所示：
 
 
 
-![Github里的项目](https://img-blog.csdnimg.cn/20190330213624749.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMjAyODk0,size_16,color_FFFFFF,t_70)
+![Github里的项目](https://github.com/xurongxiang/Overleaf_to_GitHub/blob/master/fig/3.png)
 
 
 在Github里就会有一个和Overleaf里项目内容相同的仓库。
@@ -24,13 +28,13 @@
 首先本地新建一个文件夹，比如我建一个“paper”文件夹。
 
 
-![空文件夹](https://img-blog.csdnimg.cn/20190330214019325.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMjAyODk0,size_16,color_FFFFFF,t_70)
+![空文件夹](https://github.com/xurongxiang/Overleaf_to_GitHub/blob/master/fig/4.png)
 
 
 打开Git bash（没有的话，可以去下载一个）
 
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190330234051115.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMjAyODk0,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://github.com/xurongxiang/Overleaf_to_GitHub/blob/master/fig/5.png)
 
 然后输入
 
