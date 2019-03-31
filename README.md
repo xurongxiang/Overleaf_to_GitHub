@@ -8,7 +8,7 @@
 ![Overleaf界面](https://github.com/xurongxiang/Overleaf_to_GitHub/blob/master/fig/1.png)
 
 打开Overleaf中的latex项目，我们现在的目标是把这里的项目同步到github上。
-首先在左上角有个**Menu**,点它，可以看到许多关于项目的设置，我们如图找到github，点进去，按照提示一步一步操作（部分用户可能要收费，但是如果之前邀请过用户，那么就可以免费使用）
+首先在左上角有个**Menu**,点它，可以看到许多关于项目的设置，我们如图找到github，点进去，按照提示一步一步操作（部分用户可能要收费）
 
 
 ![找到github](https://github.com/xurongxiang/Overleaf_to_GitHub/blob/master/fig/2.png)
