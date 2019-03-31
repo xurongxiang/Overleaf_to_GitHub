@@ -25,7 +25,18 @@
 
 ## 连接Github与本地
 这个其实就是Git的基本用法，不熟的同学可以看一下[Git教程](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/)
-这里还是详细示范一次吧。
+本文中要用到的git命令有：
+```
+git init  #把一个目录变成Git可以管理的仓库
+git clone   #从GitHub上把项目克隆到本地
+git remote add origin  #添加远程库
+git add  #提交的代码从工作区添加到暂存区
+git commit  #将缓存区内容添加到本地仓库
+git push  #本地版本库推送到远程服务器
+git pull  #远程存储库中的更改合并到当前分支中
+```
+
+
 首先本地新建一个文件夹，比如我建一个“paper”文件夹。
 
 
@@ -38,21 +49,22 @@
 ![在这里插入图片描述](https://github.com/xurongxiang/Overleaf_to_GitHub/blob/master/fig/11.png)
 
 然后输入
-
-> git init
-
+```
+git init
+```
 然后把github上的项目clone下来，比如以https://github.com/ruanlibuaa/OverleafGithubSynTest.git
 这个项目为例，输入
->git clone https://github.com/ruanlibuaa/OverleafGithubSynTest.git
-
+```
+git clone https://github.com/ruanlibuaa/OverleafGithubSynTest.git
+```
 此时本地文件夹里就会有Overleaf上的项目了。
 
 
 ![如图](https://github.com/xurongxiang/Overleaf_to_GitHub/blob/master/fig/5.png)
  然后添加远程库，
-
->  git remote add origin https://github.com/ruanlibuaa/OverleafGithubSynTest.git
-
+```
+git remote add origin https://github.com/ruanlibuaa/OverleafGithubSynTest.git
+```
 
 此时我们就连好了Overleaf，Github和本地了。
 下面开始试用：
@@ -78,12 +90,15 @@ Overleaf中改动后，还是点Menu中的github，会出现下面这个框，�
 
 ## GitHub同步到本地
 这个就是git基本操作：
->git pull
-
+```
+git pull
+```
 git pull一下就行了
 
 ## 本地同步到GitHub
->git push
+```
+git push
+```
 ## github同步到Overleaf
 当github上项目更新时，Overleaf中会检测到，pull from github也会变成蓝色，此时，点 **Pull GitHub changes into Overleaf** , Overleaf就会自动把GitHub中的更新同步到当前项目中了。
 
