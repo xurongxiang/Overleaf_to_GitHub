@@ -31,7 +31,7 @@
 ![空文件夹](https://github.com/xurongxiang/Overleaf_to_GitHub/blob/master/fig/4.png)
 
 
-打开Git bash（没有的话，可以去下载一个）
+打开Git bash（没有的话，可以去下载一个[Git](https://www.git-scm.com/download/)）
 
 
 ![在这里插入图片描述](https://github.com/xurongxiang/Overleaf_to_GitHub/blob/master/fig/11.png)
