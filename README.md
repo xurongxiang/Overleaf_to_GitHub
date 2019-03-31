@@ -1,6 +1,6 @@
 # 同步Overleaf, Github与本地latex文件
 
-最近要用Latex多人协同写论文，于是就选了[Overleaf ](https://www.overleaf.com?r=d0e1bbd0&rm=d&rs=b)。这个网站可以实现多人协同写论文，并且支持latex在线编译，以及不同历史版本之间的diff，算是非常好用的latex在线编辑器了。唯独有个缺点就是编译太慢了，有时候大一点的论文还会报Time out错误。当然，氪金可以解决这个问题，不过我们这种穷学生没有闲钱。于是，便想出了一个本地编译，同步到Overleaf上的法子，这就是借助github作为中间跳板，把本地，Overleaf和Github的仓库连起来。(本地的话，我用的是Win Edt[WinEdt下载]http://www.winedt.com/) ,这是一个套装，比较容易上手。
+最近要用Latex多人协同写论文，于是就选了[Overleaf ](https://www.overleaf.com?r=d0e1bbd0&rm=d&rs=b)。这个网站可以实现多人协同写论文，并且支持latex在线编译，以及不同历史版本之间的diff，算是非常好用的latex在线编辑器了。唯独有个缺点就是编译太慢了，有时候大一点的论文还会报Time out错误。当然，氪金可以解决这个问题，不过我们这种穷学生没有闲钱。于是，便想出了一个本地编译，同步到Overleaf上的法子，这就是借助github作为中间跳板，把本地，Overleaf和Github的仓库连起来。(本地的话，我用的是Win Edt[WinEdt下载](http://www.winedt.com/) ,这是一个套装，比较容易上手)。
 
 ## Overleaf与Github连接
 
